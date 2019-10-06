@@ -14,6 +14,6 @@ namespace DevIO.Produtos.Business.Models
         public string Estado { get; set; }
 
         /* Relações - EF */
-        public Fornecedor Type { get; set; }
+        public Fornecedor Fornecedor { get; set; }
     }
 }

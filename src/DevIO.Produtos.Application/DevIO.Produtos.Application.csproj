@@ -1,8 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>aspnet-DevIO.Aplication-C2441C39-7286-4511-81D2-953A9EBE0228</UserSecretsId>
+    <UserSecretsId>aspnet-DevIO.Produtos.Application-C66CC708-2819-4846-912E-2000848D8F51</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
@@ -10,6 +10,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevIO.Produtos.Data\DevIO.Produtos.Data.csproj" />
   </ItemGroup>
 
 </Project>

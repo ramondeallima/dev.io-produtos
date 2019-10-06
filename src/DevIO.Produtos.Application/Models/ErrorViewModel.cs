@@ -1,6 +1,6 @@
 using System;
 
-namespace DevIO.Aplication.Models
+namespace DevIO.Produtos.Application.Models
 {
     public class ErrorViewModel
     {
