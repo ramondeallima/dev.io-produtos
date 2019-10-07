@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Produtos.Business", "src\DevIO.Produtos.Business\DevIO.Produtos.Business.csproj", "{1B0F577F-3157-4B0C-8942-7FB4073EF1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Produtos.Business", "src\DevIO.Produtos.Business\DevIO.Produtos.Business.csproj", "{1B0F577F-3157-4B0C-8942-7FB4073EF1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Aplication", "src\DevIO.Produtos.Aplicacao\DevIO.Aplication\DevIO.Aplication.csproj", "{3ECDD2C2-4722-4F01-ABDF-0ECF9409FC0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevIO.Produtos.Data", "src\DevIO.Produtos.Data\DevIO.Produtos.Data.csproj", "{AE53237C-AB24-4657-84E7-97108E800FAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Produtos.Data", "src\DevIO.Produtos.Data\DevIO.Produtos.Data.csproj", "{AE53237C-AB24-4657-84E7-97108E800FAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevIO.Produtos.Application", "src\DevIO.Produtos.Application\DevIO.Produtos.Application.csproj", "{B2C9493A-6357-4BE9-B7F8-983EDF352245}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{1B0F577F-3157-4B0C-8942-7FB4073EF1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B0F577F-3157-4B0C-8942-7FB4073EF1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B0F577F-3157-4B0C-8942-7FB4073EF1B6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3ECDD2C2-4722-4F01-ABDF-0ECF9409FC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3ECDD2C2-4722-4F01-ABDF-0ECF9409FC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3ECDD2C2-4722-4F01-ABDF-0ECF9409FC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3ECDD2C2-4722-4F01-ABDF-0ECF9409FC0F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AE53237C-AB24-4657-84E7-97108E800FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AE53237C-AB24-4657-84E7-97108E800FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE53237C-AB24-4657-84E7-97108E800FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE53237C-AB24-4657-84E7-97108E800FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C9493A-6357-4BE9-B7F8-983EDF352245}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C9493A-6357-4BE9-B7F8-983EDF352245}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C9493A-6357-4BE9-B7F8-983EDF352245}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C9493A-6357-4BE9-B7F8-983EDF352245}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
