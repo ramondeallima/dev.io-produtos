@@ -11,6 +11,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DevIO.Produtos.Application.Data;
+using DevIO.Produtos.Business.Interfaces;
+using DevIO.Produtos.Business.Models;
 using DevIO.Produtos.Data.Repository;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -47,6 +49,12 @@ namespace DevIO.Produtos.Application
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddScoped<MeuDbContext>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
+            services.AddScoped<IEnderecoRepository, EnderecoRepository>();
+
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
